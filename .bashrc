@@ -1,6 +1,6 @@
 # gitの設定（下記3行を.bashrcの一番上に追加する）
-source /usr/local/etc/bash_completion.d/git-prompt.sh
-source /usr/local/etc/bash_completion.d/git-completion.bash
+source $HOME/.git-completion.bash
+source $HOME/.git-prompt.sh
 GIT_PS1_SHOWDIRTYSTATE=true
 
 # default:cyan / root:red
