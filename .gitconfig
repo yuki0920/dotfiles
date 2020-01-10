@@ -27,3 +27,5 @@
 	user = yuki0920
 [merge]
 	tool = code --wait \"$MERGED\"
+[pull]
+	rebase = true
