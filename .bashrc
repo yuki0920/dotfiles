@@ -23,3 +23,6 @@ function add_line {
   fi
 }
 PROMPT_COMMAND='add_line'
+
+# peco history のキーバインド
+bind -x '"\C-r":peco-history'
