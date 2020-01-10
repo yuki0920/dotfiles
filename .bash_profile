@@ -20,3 +20,17 @@ export PATH=$HOME/.nodebrew/current/bin:$PATH
 
 # コンパイラの設定
 export CC=/usr/bin/gcc
+
+export PATH="/usr/local/opt/libressl/bin:$PATH"
+
+# direnv の設定
+export EDITOR="code"
+eval "$(direnv hook bash)"
+
+# historyの数を50000に指定
+HISTSIZE=50000
+
+# エイリアスの設定
+alias dc='docker-compose'
+alias g='cd $(ghq root)/$(ghq list | peco)'
+alias gh='hub browse $(ghq list | peco | cut -d "/" -f 2,3)'
