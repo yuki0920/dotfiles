@@ -26,3 +26,9 @@ PROMPT_COMMAND='add_line'
 
 # peco history のキーバインド
 bind -x '"\C-r":peco-history'
+
+# ヒストリーサイズの設定
+export HISTSIZE=50000
+
+#重複履歴を無視
+export HISTCONTROL=ignoredups

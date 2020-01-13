@@ -58,9 +58,6 @@ export PATH="/usr/local/opt/libressl/bin:$PATH"
 export EDITOR="code"
 eval "$(direnv hook bash)"
 
-# historyの数を50000に指定
-HISTSIZE=50000
-
 # エイリアスの設定
 alias dc='docker-compose'
 alias g='cd $(ghq root)/$(ghq list | peco)'
