@@ -2,7 +2,7 @@
 	name = yuki0920
 	email = ywsep20@gmail.com
 [core]
-	editor = vi
+	editor = code --wait
 [alias]
 	br = branch
 	ca = commit -v --amend
