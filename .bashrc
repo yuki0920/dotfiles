@@ -24,9 +24,6 @@ function add_line {
 }
 PROMPT_COMMAND='add_line'
 
-# peco history のキーバインド
-bind -x '"\C-r":peco-history'
-
 # ヒストリーサイズの設定
 export HISTSIZE=50000
 
