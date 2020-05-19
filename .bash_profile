@@ -12,9 +12,6 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 # lsの色付け
 export LSCOLORS=gxfxcxdxbxegedabagacad
 
-# postgresのPATH
-export PATH=/usr/local/Cellar/postgresql/11.5_1/bin/:$PATH
-
 # node.jsのPATH
 export PATH=$HOME/.nodebrew/current/bin:$PATH
 
