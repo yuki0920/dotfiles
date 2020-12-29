@@ -14,6 +14,9 @@ fi
 alias ls='ls -FG'
 alias ll='ls -alFG'
 
+# Linuxベースのsedを使う
+alias sed='gsed'
+
 # 出力の後に改行を入れる
 function add_line {
   if [[ -z "${PS1_NEWLINE_LOGIN}" ]]; then
