@@ -32,3 +32,6 @@ export HISTSIZE=50000
 
 #重複履歴を無視
 export HISTCONTROL=ignoredups
+export PKG_CONFIG_PATH="/usr/local/opt/imagemagick@6/lib/pkgconfig"
+export PATH="/usr/local/opt/imagemagick@6/bin:$PATH"
+export PATH="/usr/local/opt/mysql@5.6/bin:$PATH"
