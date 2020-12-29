@@ -38,12 +38,6 @@ export PATH="/usr/local/opt/libressl/bin:$PATH"
 export EDITOR="code"
 eval "$(direnv hook bash)"
 
-# エイリアスの設定
-alias dc='docker-compose'
-alias g='cd $(ghq root)/$(ghq list | peco)'
-alias gh='hub browse $(ghq list | peco | cut -d "/" -f 2,3)'
-alias gg='git grep'
-
 # pythonの設定
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
