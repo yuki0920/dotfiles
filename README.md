@@ -60,5 +60,5 @@ $ git clone <repo_name>
 
 Git Hooks
 
-- [Customizing Git - Git Hooks](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks)
+- [Customizing Git - Git Hooks](https://git-scm.com/book/ja/v2/Git-%E3%81%AE%E3%82%AB%E3%82%B9%E3%82%BF%E3%83%9E%E3%82%A4%E3%82%BA-Git-%E3%83%95%E3%83%83%E3%82%AF)
 - [Git フックの基本的な使い方](https://qiita.com/noraworld/items/c562de68a627ae792c6c)
