@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# A hook script that prevents pushing a branch that match the following conditions:
+
+if [ "$(git log --oneline origin/master..head | grep 'fixup! ')" ]; then
+    echo "\033[0;31m[ABORT] You cannot push a commit whose title starts \`fixup! \`.\033[0;39m" 1>&2
+    exit 1
+fi
+
+exit 0
